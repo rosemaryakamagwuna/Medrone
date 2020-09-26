@@ -1,0 +1,328 @@
+/* mobile navbar sidebar under lg breakpoint */
+@media (max-width: 992px) {
+    
+    .navbar-collapse.collapsing .navbar-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -45%;
+        transition: all 0.2s ease;
+
+    }
+
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        height: auto;
+        width: 45%;
+        transition: left 0.35s ease;
+        box-shadow: 0 0.5rem 1rem rgb(230, 212, 212);
+    }
+ 
+}.nav-item a:hover{
+
+background-color: goldenrod;
+ }
+   
+                                /*nav ends*/
+  
+html,body{
+    height: 100%;
+}
+*{
+    margin: 0;
+}
+
+.formsection{
+    margin-top: 10%;
+}
+
+.indexdronesp{
+    margin-left: 0%;
+}
+
+.howdroneswork{
+    margin-top: 10%;
+}
+.btcent{
+    margin-left: 35%;
+}
+.footer{
+    background-color:rgb(238, 237, 237)
+    
+}
+.footercolour{
+    color: black;
+}
+.btn{
+    background-color: rgb(201, 164, 72);
+}
+/* social medias */
+.fc{
+    color: black;
+}
+/* headercard */
+
+.meetthedroneimage{
+    margin-left: 5%;
+}
+.img-team{
+    width: 45%;
+    border-radius: 7em;
+    margin-left: 30%;
+}
+.ourteamp{
+    font-size: 0.8em;
+}
+
+/* contactus ..................................*/
+.contact-img{
+   opacity: 0.5;
+   
+}
+.contactushead{
+    margin-bottom: 10%;
+    font-size: 2rem;
+    
+}
+.contact-med{
+    color: black;
+}
+  /* about us page */
+  .bold p{
+    font-size: 3em;
+}
+
+.boxh2{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+  
+}
+
+.boxp{
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+}
+div.box-4 img{
+    margin-right: 210px;
+}
+div.media h2{
+    margin-left: 150px;
+}
+div.media p{
+    margin-left: 150px;
+}
+
+/* technology page */
+
+
+.overlay-trigger {
+    position: auto;
+    z-index: auto;
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+.card-title  {
+    text-align: center;
+   padding-top: 150px;
+   font-size: 60px;
+   font-weight: bold;
+}
+
+.content{
+position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  top: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding-left: 20px; 
+  padding-top: 25%;
+}
+.solutionimgg{
+    padding-top: 15%;
+}
+.card-text {
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+    padding-top: 2px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+.btn1 {
+    color: white;
+    margin-top: 40vh;
+    background-color:darkgoldenrod;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-left: 590px;
+}
+.techbehindronesp {
+    text-align: center;
+  padding: 40px ;
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+}
+.techbehindrones{
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.partofthdrone {
+    margin-top: 80px;
+    background-color: lavender;
+    padding: 100px;
+    
+}
+.technologypartsh2{
+    text-align: center;
+}
+.partofthdroneh2 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+.partofthdronep {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.card-img-overlay {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    top: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 50px; /* Some padding */  
+    text-align:center;
+}
+.indexline{
+    border-color: gold;
+    width: 25%;
+     margin: auto; 
+     margin-top: 10px; 
+     height: 45px;
+}
+.technologylastdiv{
+margin-left: 7%;
+color: black;
+}
+.technologyh4{
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    }
+
+    /* social medias */
+.fc{
+    color: black;
+}
+.technologyparts{
+    font-size: 1.1rem;
+    margin-left: auto;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* SOLUTION PAGE */
+
+.btncent{
+margin-left: 25%;
+}
+
+.overlay-trigger {
+    position: auto;
+    z-index: auto;
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+
+.card-title  {
+    text-align: center;
+   margin-top: 15%;
+   font-size: 60px;
+   font-weight: bold;
+}
+
+
+.card-text {
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+ 
+    padding-bottom: 50px ;
+}
+.btn1 {
+    color: white;
+    margin-top: 20%;
+    background-color:darkgoldenrod;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-left: 590px;
+}
+.section-head {
+    text-align: center;
+
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
+}
+.section-head u{
+    
+color: darkgoldenrod;
+padding-top: 2px;
+}
+.section-text {
+    text-align: center;
+    color: black;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-bottom: 50px;
+   
+}
+.row {
+    justify-content: center;
+    margin-bottom: 3px;
+   
+}
+.row p{
+    text-align:justify;
+    text-justify: inter-word;
+}
+.card-image {
+    border-radius: 10px;
+}
+
+.aboutsocials {
+    margin-left: 45%;
+}
